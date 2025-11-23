@@ -1,7 +1,7 @@
 import { defineBuildConfig } from "unbuild";
 export default defineBuildConfig({
-  entries: ["./src/index"],
+  entries: ["./src/index", "./src/nuxt/index"],
   declaration: "node16",
   clean: true,
-  externals: ["vite"],
+  externals: ["vite", "@nuxt/kit", "@nuxt/schema"],
 });

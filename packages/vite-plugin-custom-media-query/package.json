@@ -1,5 +1,5 @@
 {
-  "name": "vite-plugin-custom-media-query",
+  "name": "vite-plugin-custom-media",
   "type": "module",
   "version": "1.0.0-beta",
   "license": "MIT",
@@ -12,6 +12,10 @@
     ".": {
       "import": "./dist/index.mjs",
       "types": "./dist/index.d.mts"
+    },
+    "./nuxt": {
+      "import": "./dist/nuxt/index.mjs",
+      "types": "./dist/nuxt/index.d.mts"
     }
   },
   "main": "./dist/index.mjs",
@@ -21,11 +25,15 @@
   "scripts": {
     "build": "unbuild"
   },
+  "devDependencies": {
+    "@nuxt/schema": "^4.0.0"
+  },
   "peerDependencies": {
     "vite": "^5.4.20 || ^6.0.0 || ^7.0.0",
     "postcss-preset-env": "^10.0.0",
     "postcss-custom-media": ">9.0.0",
-    "lightningcss": "^1.0.0"
+    "lightningcss": "^1.0.0",
+    "@nuxt/kit": "^3.0.0 || ^4.0.0"
   },
   "peerDependenciesMeta": {
     "postcss-preset-env": {

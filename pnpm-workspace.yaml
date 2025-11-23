@@ -1,2 +1,4 @@
 packages:
-  - 'packages/*'
+  - "packages/*"
+  - "nuxt-playground"
+  - "nuxt-playground/playground"

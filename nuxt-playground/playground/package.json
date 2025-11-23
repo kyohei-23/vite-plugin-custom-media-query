@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "name": "my-module-playground",
+  "type": "module",
+  "scripts": {
+    "dev": "nuxi dev",
+    "build": "nuxi build",
+    "generate": "nuxi generate"
+  },
+  "dependencies": {
+    "nuxt": "^4.2.0",
+    "vite-plugin-custom-media-query": "workspace:vite-plugin-custom-media-query"
+  },
+  "devDependencies": {
+    "postcss-preset-env": "^10.4.0"
+  }
+}

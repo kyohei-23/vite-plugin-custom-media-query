@@ -1,6 +1,5 @@
 import type { Plugin } from "vite";
-
-type PluginOption = Record<string, string>;
+import { PluginOption } from "./options";
 
 const customMediaPlugin = (options: PluginOption): Plugin => {
   const additionalLine = Object.entries(options)
