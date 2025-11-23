@@ -8,6 +8,10 @@
     "css",
     "custom media qeury"
   ],
+  "repository": {
+    "url": "https://github.com/kyohei-23/vite-plugin-custom-media-query"
+  },
+  "homepage": "https://github.com/kyohei-23/vite-plugin-custom-media-query/README.md",
   "exports": {
     ".": {
       "import": "./dist/index.mjs",
