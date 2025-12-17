@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "nuxt": "^4.2.0",
-    "vite-plugin-custom-media-query": "workspace:vite-plugin-custom-media-query"
+    "vite-plugin-custom-media": "workspace:vite-plugin-custom-media-query"
   },
   "devDependencies": {
     "postcss-preset-env": "^10.4.0"

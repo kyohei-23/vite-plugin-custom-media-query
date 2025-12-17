@@ -17,6 +17,7 @@ export default {
       plugins: [
         presetEnv({
           customMediaPlugin: true,
+          browsers: "baseline 2024",
         }),
       ],
     },

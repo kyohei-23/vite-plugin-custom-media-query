@@ -4,4 +4,7 @@ export default defineBuildConfig({
   declaration: "node16",
   clean: true,
   externals: ["vite", "@nuxt/kit", "@nuxt/schema"],
+  replace: {
+    "import.meta.vitest": "undefined",
+  }
 });
